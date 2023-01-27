@@ -38,7 +38,7 @@ def solve(board):
 
 if __name__ == '__main__':
 
-
+    #starting with random board. Can take input from the user if required
     mat = [["X", "O", "X", "O", "X", "X"],
         ["X", "O", "X", "X", "O", "X"],
         ["X", "X", "X", "O", "X", "X"],
