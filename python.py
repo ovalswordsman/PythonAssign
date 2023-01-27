@@ -5,6 +5,7 @@ def solve(board):
 
     # using dfs to change all adjacent 'O' to 'P'
     def dfs(x, y):
+        #Checking if x and y lies inside board and value of board at x, y is 'O'. If not we will return
         if x < 0 or x >= row or y < 0 or y >= col or board[x][y] == 'X' or board[x][y] == 'P':
             return
         board[x][y] = 'P'
