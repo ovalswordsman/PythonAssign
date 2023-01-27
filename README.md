@@ -5,4 +5,5 @@ Approach
 4. Now traverse through the board, and first change the remaining 'O' to 'X' and simultaneously all 'P' to back 'O' again.
 
 Space complexity : O(1) for extra space , O(row * col) for stack space while DFS
+
 Time complexity : O(row * col), traversing through whole board
